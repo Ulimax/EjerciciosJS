@@ -28,3 +28,7 @@ for (let index = 0; index < people.length; index++) {
 }
 
 console.log(people.indexOf('Maria'));
+
+const cabecera5 = document.createElement('p');
+cabecera5.innerHTML = `Resultado 5: En consola`;
+cuerpo.appendChild(cabecera5);
